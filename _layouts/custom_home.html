@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center my-5">
+      <img src="{{ '/profile_photo.jpg' | relative_url }}" class="img-fluid rounded-circle mb-3" alt="Foto Profil Muh. Rinaldi Ruslan" style="max-width: 180px;">
+      <h1 class="display-4 fw-bold">Muh. Rinaldi Ruslan</h1>
+      <p class="lead">Mahasiswa Sistem Informasi & Pegiat Teknologi</p>
+      <p class="text-muted">Software Engineering | Data Engineering | Mobile Development</p>
+      <div>
+        <a href="{{ '/about/' | relative_url }}" class="btn btn-primary btn-lg mt-3">Tentang Saya</a>
+        <a href="#featured-projects" class="btn btn-outline-secondary btn-lg mt-3">Lihat Proyek</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="featured-projects">
+    <div class="col-12">
+      <h2 class="text-center my-5">Proyek Unggulan</h2>
+    </div>
+
+    {% assign featured_projects = site.posts | where_exp: "item", "item.categories contains 'Project'" %}
+    {% for post in featured_projects limit:3 %}
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          {% if post.image %}
+            <img src="{{ post.image.path | default: post.image }}" class="card-img-top" alt="{{ post.title }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+            <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+            <div class="mt-auto">
+              {% for tag in post.tags %}
+                <span class="badge bg-secondary">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
