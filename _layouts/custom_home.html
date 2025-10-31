@@ -2,19 +2,52 @@
 layout: default
 ---
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 text-center my-5">
-      <img src="{{ '/profile_photo.jpg' | relative_url }}" class="img-fluid rounded-circle mb-3" alt="Foto Profil Muh. Rinaldi Ruslan" style="max-width: 180px;">
-      <h1 class="display-4 fw-bold">Muh. Rinaldi Ruslan</h1>
-      <p class="lead">Mahasiswa Sistem Informasi & Pegiat Teknologi</p>
-      <p class="text-muted">Software Engineering | Data Engineering | Mobile Development</p>
-      <div>
-        <a href="{{ '/about/' | relative_url }}" class="btn btn-primary btn-lg mt-3">Tentang Saya</a>
-        <a href="#featured-projects" class="btn btn-outline-secondary btn-lg mt-3">Lihat Proyek</a>
+
+  <div class="rounded p-4 p-md-5 mt-3" style="background-color: #2a2a2a;">
+
+    <div class="row align-items-center">
+
+      <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+        <img src="{{ '/profile_photo.jpg' | relative_url }}"
+             class="img-fluid"
+             alt="Foto Profil Naldii"
+             style="max-width: 200px; border: 4px solid #444; border-radius: 1.5rem;">
+      </div>
+
+      <div class="col-md-8">
+
+        <h1 class="h3 fw-bold mb-1">Naldii</h1>
+
+        <p class="lead text-white-50 mb-4">
+          Mahasiswa Sistem Informasi <br>
+          <span class="small">Software Engineering | Machine Learning Engineering</span>
+        </p>
+
+        <div>
+           <a href="#featured-projects" class="btn btn-outline-light btn-lg mt-2">Lihat Proyek</a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" style="border-color: #444;"> <div class="row text-center">
+      <div class="col-6 col-md-3 mb-3 mb-md-0">
+        <h3 class="fw-bold mb-0">5+</h3>
+        <p class="text-white-50 mb-0">Proyek Selesai</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3 mb-md-0">
+        <h3 class="fw-bold mb-0">10+</h3>
+        <p class="text-white-50 mb-0">Teknologi Dikuasai</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h3 class="fw-bold mb-0">2+</h3>
+        <p class="text-white-50 mb-0">Tahun Pengalaman</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h3 class="fw-bold mb-0">100+</h3>
+        <p class="text-white-50 mb-0">Kontribusi</p>
       </div>
     </div>
   </div>
-
   <div class="row" id="featured-projects">
     <div class="col-12">
       <h2 class="text-center my-5">Proyek Unggulan</h2>
@@ -40,4 +73,4 @@ layout: default
       </div>
     {% endfor %}
   </div>
-</div>
+  </div>
