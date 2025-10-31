@@ -41,3 +41,6 @@ Jika ingin terhubung atau berkolaborasi, Anda bisa menghubungi saya melalui:
 
 Terima kasih telah mengunjungi blog saya! 🚀
 
+<div style="display: none;">
+  <span class="rounded p-4 p-md-5 mt-3 row align-items-center col-md-4 text-md-start mb-md-0 col-md-8 h3 lead btn-outline-light my-4 col-6 col-md-3"></span>
+</div>
