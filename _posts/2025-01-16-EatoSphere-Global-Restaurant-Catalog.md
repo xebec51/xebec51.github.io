@@ -4,7 +4,7 @@ title: "EatoSphere - Global Restaurants Catalog"
 date: 2025-01-16
 categories: [Project]
 tags: [frontend, pwa, web development, javascript]
-image: https://pbs.twimg.com/media/Gh3TDjVbEAAnBKV?format=jpg&name=4096x4096
+image: /assets/img/eatos_icon.png
 ---
 
 ![EatoSphere](https://pbs.twimg.com/media/Gh3TDjVbEAAnBKV?format=jpg&name=4096x4096)
