@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pengantar Unit Testing (STQA #5)"
-date: 2025-11-05 10:00:00 +0800
+date: 2025-09-23 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, unit testing, aaa, jest, junit, pytest]
 image: /assets/img/hero1.jpg

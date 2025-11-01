@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test Scenario, Case, & Bug Report (STQA #4)"
-date: 2025-11-04 10:00:00 +0800
+date: 2025-09-16 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, test case, test scenario, bug report]
 image: /assets/img/hero4.jpg

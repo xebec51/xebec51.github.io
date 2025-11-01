@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pengantar Framework Cypress (STQA #8)"
-date: 2025-11-08 10:00:00 +0800
+date: 2025-10-14 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, automation, cypress, e2e]
 image: /assets/img/hero4.jpg

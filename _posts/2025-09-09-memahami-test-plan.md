@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mengenal Test Plan (STQA #3)"
-date: 2025-11-03 10:00:00 +0800
+date: 2025-09-09 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, test plan, ieee 829, dokumentasi]
 image: /assets/img/hero3.jpg

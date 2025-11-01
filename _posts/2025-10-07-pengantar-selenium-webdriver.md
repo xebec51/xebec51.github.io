@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pengantar Selenium WebDriver (STQA #7)"
-date: 2025-11-07 10:00:00 +0800
+date: 2025-10-07 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, automation, selenium, webdriver]
 image: /assets/img/hero3.jpg

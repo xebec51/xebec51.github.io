@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pengantar API Testing (STQA #6)"
-date: 2025-11-06 10:00:00 +0800
+date: 2025-09-30 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, api, postman, soapui, rest]
 image: /assets/img/hero2.jpg

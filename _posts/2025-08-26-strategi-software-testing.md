@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pengantar Strategi Software Testing (STQA #1)"
-date: 2025-11-01 10:00:00 +0800
+date: 2025-08-26 10:00:00 +0800
 categories: [STQA]
 tags: [stqa, strategi, stlc, sdc, black-box, white-box]
 image: /assets/img/hero1.jpg
